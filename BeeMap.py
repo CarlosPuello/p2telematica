@@ -51,6 +51,7 @@ class Colisiones:
             
         relleno = time()
         print("||| Haciendo el mapa sin rellenar: ", relleno-ini)
+
         for i in range(len(listaAbejitas)):
             abeja = listaAbejitas[i]
             x = abeja[1]
@@ -72,6 +73,7 @@ class Colisiones:
                     indiceX = k
                     break
             mapa[indiceX][indiceY].append(abeja)
+            
         fin = time()
         """
         contador = 0
