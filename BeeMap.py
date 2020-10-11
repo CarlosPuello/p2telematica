@@ -56,24 +56,23 @@ class Colisiones:
             abeja = listaAbejitas[i]
             x = abeja[1]
             y = abeja[0]
-            j = self.mapGrid-1
+            j = self.mapGrid
             k = 0
             indiceX = 0
             indiceY = 0
-            while j >= 0:
-                if y > ordenY[j]:
-                    j -= 1
-                else:
+            
+            for j in reversed(range(self.mapGrid)):
+                if y <= ordenY[j]:
                     indiceY = j
                     break
-            while k < self.mapGrid:
-                if x > ordenX[k]:
-                    k += 1
-                else:
+
+            for k in range(self.mapGrid):
+                if x <= ordenX[k]:
                     indiceX = k
                     break
+
             mapa[indiceX][indiceY].append(abeja)
-            
+
         fin = time()
         """
         contador = 0
@@ -118,10 +117,12 @@ for indice,abeja in enumerate(abejasAux):
     abeja = abeja.split(",")
     listaAbejitas.append([float(abeja[1]), float(abeja[0]), float(abeja[2]), False])
 #creacion de la matriz
+
 mapa = []
 mapGrid = 16
 if len(listaAbejitas) > 10000:
     mapGrid = 64
+
 for i in range(0,mapGrid):
     mapa.append([])
     for j in range (0,mapGrid):
