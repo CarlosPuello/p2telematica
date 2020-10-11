@@ -14,13 +14,36 @@ Imagen por Alberto Restrepo, Mauricio Toro para Universidad EAFIT
 
 ### Particionado
 
-![](https://i.imgur.com/z9fBtjH.png)
+![](https://i.imgur.com/A1W0zr8.png)
+
+**T0:** Carga de datos de abejas y rejillas del mapa (ordenes)
+
+**T1:** Selección individual de abeja
+
+**T2:** Busqueda de orden en Y para la abeja
+
+**T3:** Busqueda de orden en X para la abeja
+
+**TF:** Guardado del mapa poblado con abejas
 
 ### Comunicaciones
 
-![](https://i.imgur.com/1jBtA8w.png)
+![](https://i.imgur.com/fL3mZg1.png)
 
+Modelo de comunicaciones
+
+![](https://i.imgur.com/5QAS972.png)
+
+Modelo particionado
 
 ### Aglomeración
+
+**Iniciación de datos:** T0
+
+**Guardado de datos:** TF
+
+**Procesamiento de datos:** T1, T2, T3
+
+**Clústeres de tareas:** [T0 - T1] - [T2] - [T3] - [TF]
 
 ### Mapeo
