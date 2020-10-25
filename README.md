@@ -1,5 +1,11 @@
 # Proyecto 2 Tópicos en telemática
 
+## Miembros y aportes
+
+- [Carlos Daniel Puello Peña](https://youtu.be/3dqSU0BcusY)
+- [Julianny Restrepo López](https://youtu.be/)
+- [Santiago Elias Rodríguez Hawasly](https://youtu.be/)
+
 ## Algoritmo a utilizar:
 Creación de mapas para chequeo de colisiones de Drones en tiempo real
 ![](https://i.imgur.com/t8momE0.png)
