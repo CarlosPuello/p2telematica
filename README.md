@@ -4,7 +4,7 @@
 
 - [Carlos Daniel Puello Peña](https://youtu.be/3dqSU0BcusY)
 - [Julianny Restrepo López](https://web.microsoftstream.com/video/ab4e9dc7-f04d-49c0-a3ac-d7edc682111a)
-- [Santiago Elias Rodríguez Hawasly](https://youtu.be/)
+- [Santiago Elias Rodríguez Hawasly](https://youtu.be/4LP42s-los4)
 
 ## Algoritmo a utilizar:
 Creación de mapas para chequeo de colisiones de Drones en tiempo real
